@@ -31,4 +31,30 @@ $query3=$this->db->select('id')
                  ->get('tblusers');
 return  $query3->num_rows();
 }
+
+
+            public function total_duplicates_username()
+            {
+                log_message('debug','finding total numbers of duplicate users...');
+                //$query4="Select firstName,lastName,emailId,count(id) from tblusers group by emailId having count(id) > 1  ;"    
+                $this->db->select('firstName,lastName,emailId,COUNT(id) as total');
+                $this->db->group_by('emailId'); 
+                $this->db->having('total > 1'); 
+                $query4=$this->db->get('tblusers');
+
+                return  $query4->result();
+
+            }
+
+
+            public function total_active_sessions()
+            {
+                log_message('debug','finding total numbers of active users...');
+                $this->db->select('*');
+                $this->db->where('status','A');
+                $query5=$this->db->get('active_session');
+            
+                return $query5->num_rows();
+            }
 }
+

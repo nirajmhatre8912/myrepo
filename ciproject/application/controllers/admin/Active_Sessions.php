@@ -15,7 +15,9 @@ class Active_Sessions extends CI_Controller {
 	{
 		log_message('debug', 'index method active session controller');
 		$this->load->helper('url');
-		$this->load->view('admin/Active_Sessions');
+		$config_menu=$this->session->userdata('config_menu');
+		$data['pagelist']=$config_menu;
+		$this->load->view('admin/Active_Sessions',$data);
 		log_message('debug', 'navigation to active session view');
 	}
 

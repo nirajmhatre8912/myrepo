@@ -115,6 +115,25 @@
             </div>
       </div>  
  <?php echo form_close();?>
+
+
+             <?php
+                if (isset($error)){
+                    echo $error;
+                }
+            ?>
+
+
+                <br><br>
+              <form method="post" enctype="multipart/form-data" action="<?=base_url('index.php/store-image')?>" >
+                              <input type="file" id="profile_image" name="profile_image" size="33" />
+                              <input type="submit" value="submit" name="submit"/>
+							  <input type="hidden" id="uid" name="uid" value="<?php echo $ud->id; ?>"/>
+              </form>
+
+
+
+
         </div>
         <!-- /.container-fluid -->
 

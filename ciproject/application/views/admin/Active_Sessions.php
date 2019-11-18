@@ -23,9 +23,18 @@
 
     </head> 
 <body>
-    <div> <!-- class="container" -->
+   
     <?php include APPPATH.'views/admin/includes/header.php';?>
 
+    <div id="wrapper">
+      <!-- Sidebar -->
+      <?php include APPPATH.'views/admin/includes/sidebar.php';?>
+
+      <div id="content-wrapper">
+
+        <div class="container-fluid">
+
+   
       <!-- Breadcrumbs-->
       <ol class="breadcrumb">
             <li class="breadcrumb-item">
@@ -68,7 +77,19 @@
                 </tr>
             </tfoot>
         </table>
-    </div>
+        </div> <!--   container-fluid -->
+		
+		
+		
+             <!-- Sticky Footer -->
+    <?php include APPPATH.'views/admin/includes/footer.php';?>
+        
+		
+		</div> <!-- content-wrapper -->
+        
+		</div> 
+		<!-- wrapper -->
+ 
 
 <script src="<?php echo base_url('assests/jquery/jquery-2.2.3.min.js')?>"></script>
 <script src="<?php echo base_url('assests/datatables/js/jquery.dataTables.min.js')?>"></script>

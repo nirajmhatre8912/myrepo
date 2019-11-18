@@ -44,5 +44,29 @@ public function getPagination()
     $list=$this->Customers_model->get_datatables();
 }
 
+            public function testUser()
+            {
+                $config_menu=$this->session->userdata('config_menu');
+                $data['dataInfo']=array();
+				$data['pagelist'] = $config_menu;
+				$this->load->view('admin/display_user', $data);
+
+            }
+
+
+            public function getDublicates()
+            {
+                $this->load->model('Admin_Dashboard_Model');
+                $result=$this->Admin_Dashboard_Model->total_duplicates_username();
+                //$result=$this->Admin_Dashboard_Model->total_active_sessions();
+                foreach ($result as $key=>$line) :
+                
+				$total_dups_number=$result["total"];
+                endforeach;
+                print_r($total_dups_number);
+            }
+
+            
+
 }	
 ?>

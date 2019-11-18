@@ -23,4 +23,28 @@ $sql_query=$this->db->where('id', $uid)
                 ->delete('tblusers');
             }
 
+
+
+			public function store_image_name($uid,$image_name)
+			{
+					log_message('debug','store_image_name() got called form ManageUsers_Model'); 
+							$arraySession = array('emp_ref_id' => $uid ,
+													'image_name' => $image_name
+													 );
+							$sql_query=$this->db->insert('image_store',$arraySession);
+							
+							
+							if ($sql_query)
+							{
+								log_message('debug','insert success');
+								$this->session->set_flashdata('success','Image name stored in db...');
+							}
+							else
+							{
+								log_message('debug','insert failed');
+								$this->session->set_flashdata('error','Image name failed to store in db...');	
+							}
+				
+			}
+
 }

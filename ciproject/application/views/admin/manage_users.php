@@ -39,8 +39,9 @@
               <a href="<?php echo site_url('admin/Dashboard'); ?>">Dashboard</a>
             </li>
             <li class="breadcrumb-item active">Manage Users</li>
+			
           </ol>
-
+					<?php echo anchor('admin/Upload_users', 'Upload Users', 'class="link-class"') ?>
           <!-- DataTables Example -->
           <div class="card mb-3">
             <div class="card-header">

@@ -52,3 +52,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['default_controller'] = 'Home';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
+
+
+//$route['upload-image'] = 'Manage_Users';
+$route['store-image'] = 'admin/Manage_Users/store';

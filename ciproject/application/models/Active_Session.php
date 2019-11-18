@@ -18,7 +18,7 @@ Class Active_Session extends CI_Model
 				$sql_query=$this->db->insert('active_session',$arraySession);
 				
 				
-				if (sql_query)
+				if ($sql_query)
 				{
 					log_message('debug','insert success');
 					$this->session->set_flashdata('success','Session establised..');
