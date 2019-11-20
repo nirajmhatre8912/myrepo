@@ -37,6 +37,14 @@ public function getCM()
    // var_dump("Result = ".$result);
 }
 
+public function getMU()
+{
+$uid=1;
+$this->load->model('ManageUsers_Model');
+$udetail=$this->ManageUsers_Model->getuserdetail($uid);
+var_dump($udetail);
+}
+
 
 public function getPagination()
 {

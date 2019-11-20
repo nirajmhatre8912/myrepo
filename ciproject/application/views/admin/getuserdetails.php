@@ -58,8 +58,21 @@
 
                   </div>
                 </div>
-              </div>
-            </div>
+			<?php if ( strlen($ud->image_name) > 0) { ?>	
+				<div class="col-md-1">
+                  <div class="form-label-group">
+					<img src="<?php echo base_url(); ?>assests/uploads/images/<?php echo $ud->image_name;?>" class="img-rounded" alt="User Image" height="75cm" width="100cm">
+                  </div>
+                </div>
+			<?php } else {?>
+			<div class="col-md-1">
+                  <div class="form-label-group">
+					<img src="<?php echo base_url(); ?>assests/uploads/images/noimage.png" class="img-rounded" alt="User Image" height="75cm" width="100cm">
+                  </div>
+                </div>
+			<?php } ?>
+     </div>
+ </div>
 
   <div class="form-group">
               <div class="form-row">

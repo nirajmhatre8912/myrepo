@@ -10,10 +10,13 @@ Class ManageUsers_Model extends CI_Model{
 //Getting particular user deatials on the basis of id	
  public function getuserdetail($uid){
 	log_message('debug','getuserdetail() got called form ManageUsers_Model'); 
- 	$ret=$this->db->select('firstName,lastName,emailId,regDate,id,mobileNumber,lastUpdationDate')
- 	              ->where('id',$uid)
- 	              ->get('tblusers');
- 	                return $ret->row();
+ 	$this->db->select('*');
+	$this->db->from('tblusers');
+ 	$this->db->join('image_store', 'tblusers.id = image_store.emp_ref_id ');
+	$this->db->where('tblusers.id',$uid); 
+	$this->db->order_by('image_store.id ','desc');
+	$query = $this->db->get();	
+	return $query->row();
  }
 
  // Function for use deletion
