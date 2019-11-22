@@ -1,0 +1,34 @@
+2019-11-21 15:05:29,536 debug Message
+2019-11-21 15:05:29,536 file to be movedsaa20191120.txt
+2019-11-21 15:05:29,536 Source = C:\Program Files (x86)\VSCommon\webroot\logs\saa20191120.txt
+2019-11-21 15:05:29,536 Destination = D:\02_tmp\
+2019-11-21 15:05:29,561 Moved Successfully..
+2019-11-21 15:25:17,833 debug Message
+2019-11-21 15:25:17,835 file to be movedsaa20191120.txt
+2019-11-21 15:25:17,835 Source = C:\Program Files (x86)\VSCommon\webroot\logs\saa20191120.txt
+2019-11-21 15:25:17,835 Destination = D:\02_tmp\
+2019-11-21 15:25:17,837 Moved Successfully..
+2019-11-21 17:57:31,629 debug Message
+2019-11-21 17:57:31,629 Exception(1062, 'ControlService', 'The service has not been started.')
+2019-11-21 17:58:30,830 debug Message
+2019-11-21 17:58:30,840 Exception(1062, 'ControlService', 'The service has not been started.')
+2019-11-21 18:02:32,615 debug Message
+2019-11-21 18:02:32,625 Exception(1056, 'StartService', 'An instance of the service is already running.')
+2019-11-21 18:03:34,445 debug Message
+2019-11-21 18:04:08,288 debug Message
+2019-11-21 18:04:25,751 debug Message
+2019-11-22 09:22:30,504 debug Message
+2019-11-22 09:22:43,032 debug Message
+2019-11-22 09:40:31,183 debug Message
+2019-11-22 09:40:34,653 debug Message
+2019-11-22 09:40:34,773 Exception(1056, 'StartService', 'An instance of the service is already running.')
+2019-11-22 09:41:54,376 debug Message
+2019-11-22 09:41:54,376 Exception(1056, 'StartService', 'An instance of the service is already running.')
+2019-11-22 09:42:00,306 debug Message
+2019-11-22 09:42:10,576 debug Message
+2019-11-22 09:42:23,129 debug Message
+2019-11-22 09:42:23,139 Exception(1056, 'StartService', 'An instance of the service is already running.')
+2019-11-22 09:49:45,498 debug Message
+2019-11-22 09:49:48,733 debug Message
+2019-11-22 11:24:13,102 debug Message
+2019-11-22 11:24:19,654 debug Message
