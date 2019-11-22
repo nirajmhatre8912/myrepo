@@ -28,7 +28,7 @@ def stopMSService (serviceName):
         logger.debug("Exception" + str(e))
         sys.exit()
 
-
+''' All services need to be stop '''
 
 serviceApache = 'Apache2'
 serviceTomcat = 'Tomcat'
@@ -51,10 +51,6 @@ except Exception as e:
     print("ERROR=01")
     logger.debug("Exception" + str(e))
     sys.exit()
-
-
-
-
 
 ''' Service TWO '''
 print("stoping Service " + serviceTomcat)
@@ -80,8 +76,6 @@ except Exception as e:
     print("ERROR=01")
     logger.debug("Exception" + str(e))
     sys.exit()
-
-
 
 ''' Service FOUR '''
 
@@ -110,7 +104,6 @@ except Exception as e:
     logger.debug("Exception" + str(e))
     sys.exit()
 
-
 ''' Service SIX '''
 
 print("stoping Service " + rmiServiceVSPkgMgmtServiceManager)
@@ -137,7 +130,6 @@ except Exception as e:
     logger.debug("Exception" + str(e))
     sys.exit()
 
-
 ''' Service EIGHT '''
 
 print("stoping Service " + serviceRmiRegistry)
@@ -150,9 +142,6 @@ except Exception as e:
     print("ERROR=01")
     logger.debug("Exception" + str(e))
     sys.exit()
-
-   
-   
 
 ''' Service NINE '''
 
