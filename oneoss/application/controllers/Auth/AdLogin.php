@@ -102,14 +102,27 @@ class AdLogin extends CI_Controller
                                 log_message('debug','calling insert_active_session()');
                                 $this->Active_Session->insert_active_session($emailid,$validate["id"],$REMOTE,$session,$Role,$status);
 
+                                                /* 
+                                                * Loading configurable menu 
+                                                */
 
-                                log_message('debug','loading view public\Dashboard');
-
-                                $this->load->helper('cookie');
-                                delete_cookie('ci_session');
-                                
-                                $this->load->view("public\Dashboard");
-                                return;
+                                                log_message('debug','loading Configarable_Login model...');
+                                                $this->load->model('Configarable_Login');
+                                            
+                                                log_message('debug','calling countlastsevendays() method for role='.$Role);
+                                                $result=$this->Configarable_Login->countlastsevendays($Role);
+                                                log_message('debug','loading configurable menu with result='.$result);
+                                                //$this->load->view('sidebarconfigarable',['pagelist'=>$result]);
+                                                
+                                                $this->session->set_userdata('Config_menu',$result);
+                                                //$this->load->view("public\dash",['pagelist'=>$result]); 
+                                                log_message('debug','loading view public\Dashboard');
+                                                $this->load->helper('cookie');
+                                                delete_cookie('ci_session');
+                                                
+                                                //$this->load->view("public\Dashboard");
+                                                $this->load->view("public\dash",['pagelist'=>$result]); 
+                                                return;
                         
                                         
                                              

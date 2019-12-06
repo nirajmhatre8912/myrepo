@@ -29,6 +29,20 @@ class Test extends CI_Controller
 
 
 
+    public function test1()
+    {
+
+        log_message('debug','loading Configarable_Login model...');
+		$this->load->model('Configarable_Login');
+		$role="VIEWUSER";
+		log_message('debug','calling countlastsevendays() method for role='.$role);
+		$result=$this->Configarable_Login->countlastsevendays($role);
+		log_message('debug','loading configurable menu with result='.$result);
+		//$this->load->view('sidebarconfigarable',['pagelist'=>$result]);
+
+        $this->load->view("public\dash",['pagelist'=>$result]);
+
+    }
 
 
     public function ldap_connect()

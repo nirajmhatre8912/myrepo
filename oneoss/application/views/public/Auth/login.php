@@ -121,11 +121,11 @@ body {
       <div class="loading-icon spin"></div>
 
       <p class="mb-0">
-        <a href="#" class="text-center">For Support please contact</a>
+        For Support please contact
       </p>
       
       <p class="mb-1">
-        <a href="#"  class="text-center">OSSSupport@GlobalcloudXchange.com</a>
+        <a href="mailto:OSSSupport@GlobalcloudXchange.com"  class="text-center">OSSSupport@GlobalcloudXchange.com</a>
       </p>
 
     </div>
