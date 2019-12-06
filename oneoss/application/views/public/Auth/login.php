@@ -55,10 +55,23 @@ body {
 <!-- Error block -->
 
 
+
+<!-- Success block -->
+
+<?php if ($this->session->flashdata('success')) { ?>
+
+<p style="color:Green; font-size:18px;" align="center"><?php echo $this->session->flashdata('success');?></p>
+
+<?php } 
+?> 
+<!-- Success block -->
+
+
+
 <div class="login-box">
   <div class="login-logo">
           <!-- style="width: 101px;" -->
-         <img id="loading" src="https://www.globalcloudxchange.com/wp-content/uploads/favicon.png"> </img>
+         <img id="loading" src="https://www.globalcloudxchange.com/wp-content/uploads/favicon.png" style="width: 30%;"> </img>
          <a href="../../index2.html"><b>ONE</b>OSS</a> 
   </div>
   <!-- /.login-logo -->
@@ -66,19 +79,27 @@ body {
     <div class="card-body login-card-body">
       <p class="login-box-msg">Sign in to start your session</p>
 
+      <div style='color:red'>
+      <?php echo validation_errors(); ?>
+      </div>
       <?php echo form_open('Auth/AdLogin/getAuth');?>
 
       <form action="../../index3.html" method="post">
-        <div class="input-group mb-3">
-      <!--    <input type="email" class="form-control" placeholder="Email"> -->
-          <?php echo form_input(['name'=>'emailid','id'=>'emailid','class'=>'form-control','autofocus'=>'autofocus','value'=>set_value('emailid')]);?>
-          <?php echo form_error('emailid',"<div style='color:red'>","</div>");?>
+       
+          <div class="row">
+            <div class="input-group mb-3">
+              <?php echo form_input(['name'=>'emailid','id'=>'emailid','class'=>'form-control','autofocus'=>'autofocus','value'=>set_value('emailid')]);?>
+            </div>
+          </div>
+
+
+        <div class="row">
+          <div class="input-group mb-3">
+              <?php echo form_password(['name'=>'password','id'=>'password','class'=>'form-control','autofocus'=>'autofocus','value'=>set_value('password')]);?>
+          </div>
         </div>
-        <div class="input-group mb-3">
-          <!-- <input type="password" class="form-control" placeholder="Password">  -->
-          <?php echo form_password(['name'=>'password','id'=>'password','class'=>'form-control','autofocus'=>'autofocus','value'=>set_value('password')]);?>
-          <?php echo form_error('password',"<div style='color:red'>","</div>");?>
-        </div>
+
+
         <div class="row">
           <div class="col-8">
             <div class="icheck-primary">
@@ -99,12 +120,14 @@ body {
 
       <div class="loading-icon spin"></div>
 
-      <p class="mb-1">
-        <a href="forgot-password.html">I forgot my password</a>
-      </p>
       <p class="mb-0">
-        <a href="register.html" class="text-center">Register a new membership</a>
+        <a href="#" class="text-center">For Support please contact</a>
       </p>
+      
+      <p class="mb-1">
+        <a href="#"  class="text-center">OSSSupport@GlobalcloudXchange.com</a>
+      </p>
+
     </div>
     <!-- /.login-card-body -->
   </div>

@@ -77,8 +77,27 @@ body {
     </form>
 
     <!-- Right navbar links -->
+
     <ul class="navbar-nav ml-auto">
-        <a class="nav-link" href="http://localhost/oneoss/"> 
+        <a class="nav-link"> 
+            <span class="glyphicon glyphicon-stop">user ip :- </span> <?php echo $this->session->userdata('REMOTE_ADDR');?> </a>
+    </ul>
+    <ul class="navbar-nav ml-auto">
+        <a class="nav-link"> 
+            <span class="glyphicon glyphicon-stop">role :- </span> <?php echo $this->session->userdata('ROLE');?> </a>
+    </ul>
+
+
+    <ul class="navbar-nav ml-auto">
+        <a class="nav-link"> 
+                <?php echo $this->session->userdata('EMAIL'); ?>
+        </a>
+    </ul>
+
+
+
+    <ul class="navbar-nav ml-auto">
+        <a class="nav-link" href="<?php echo base_url(); ?>index.php/Auth/AdLogin/decAuthentication"> 
             <span class="glyphicon glyphicon-stop"> </span> Logout </a>  
     </ul>
   </nav>
@@ -101,7 +120,7 @@ body {
           <img src="<?php echo base_url()."assets/"; ?>dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="#" class="d-block">NCMhatre</a>
+          <a href="#" class="d-block"> <?php echo $this->session->userdata('USER'); ?></a>
         </div>
       </div>
 
@@ -196,7 +215,7 @@ body {
   <footer class="main-footer">
     <!-- To the right -->
     <div class="float-right d-none d-sm-inline">
-      Anything you want
+     
     </div>
     <!-- Default to the left -->
     <strong>Copyright &copy; 2019 <a href="">GCX</a>.</strong> All rights reserved.
