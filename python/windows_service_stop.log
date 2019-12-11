@@ -1,0 +1,46 @@
+
+2019-11-27 11:34:44,539 debug Message
+2019-11-27 11:34:44,549 Exception(1062, 'ControlService', 'The service has not been started.')
+2019-11-27 11:34:44,549 Exception(1062, 'ControlService', 'The service has not been started.')
+2019-11-27 11:34:53,199 debug Message
+2019-11-27 11:34:53,199 Exception(1062, 'ControlService', 'The service has not been started.')
+2019-11-27 11:34:53,199 Exception(1062, 'ControlService', 'The service has not been started.')
+2019-11-27 11:34:53,209 Exception(1062, 'ControlService', 'The service has not been started.')
+2019-11-27 11:35:44,595 debug Message
+2019-11-27 11:35:44,595 Exception(1062, 'ControlService', 'The service has not been started.')
+2019-11-27 11:35:44,605 Exception(1062, 'ControlService', 'The service has not been started.')
+2019-11-27 11:35:44,605 Exception(1062, 'ControlService', 'The service has not been started.')
+2019-11-27 11:36:21,855 debug Message
+2019-11-27 11:36:21,875 Exception(1062, 'ControlService', 'The service has not been started.')
+2019-11-27 11:36:21,885 Exception(1062, 'ControlService', 'The service has not been started.')
+2019-11-27 11:37:41,035 debug Message
+2019-11-27 11:37:41,035 Exception(1062, 'ControlService', 'The service has not been started.')
+2019-11-27 11:37:41,045 Exception(1062, 'ControlService', 'The service has not been started.')
+2019-11-27 11:37:41,045 Exception(1062, 'ControlService', 'The service has not been started.')
+2019-11-27 11:40:26,820 debug Message
+2019-11-27 11:40:26,830 Exception(1062, 'ControlService', 'The service has not been started.')
+2019-11-27 11:40:26,830 Exception(1062, 'ControlService', 'The service has not been started.')
+2019-11-27 11:41:22,329 debug Message
+2019-11-27 11:41:22,337 Exception(1062, 'ControlService', 'The service has not been started.')
+2019-11-27 11:41:22,340 Exception(1062, 'ControlService', 'The service has not been started.')
+2019-11-27 11:41:22,343 Exception(1062, 'ControlService', 'The service has not been started.')
+2019-11-27 11:49:54,728 debug Message
+2019-11-27 11:50:49,058 debug Message
+2019-11-27 11:50:49,076 Exception(1062, 'ControlService', 'The service has not been started.')
+2019-11-27 11:50:49,077 Exception(1062, 'ControlService', 'The service has not been started.')
+2019-11-27 11:52:13,749 debug Message
+2019-11-27 11:54:26,023 debug Message
+2019-11-27 15:44:16,411 debug Message
+2019-11-27 15:44:35,253 debug Message
+2019-11-27 15:44:35,256 Exception(1062, 'ControlService', 'The service has not been started.')
+2019-11-27 15:44:35,259 Exception(1062, 'ControlService', 'The service has not been started.')
+2019-11-27 15:44:35,261 Exception(1062, 'ControlService', 'The service has not been started.')
+2019-11-27 16:00:42,641 debug Message
+2019-11-27 16:02:12,601 debug Message
+2019-11-27 16:02:12,605 Exception(1062, 'ControlService', 'The service has not been started.')
+2019-11-27 16:02:12,610 Exception(1062, 'ControlService', 'The service has not been started.')
+2019-11-27 16:02:12,615 Exception(1062, 'ControlService', 'The service has not been started.')
+2019-11-27 16:03:16,276 debug Message
+2019-11-27 16:03:16,278 Exception(1062, 'ControlService', 'The service has not been started.')
+2019-11-27 16:03:16,283 Exception(1062, 'ControlService', 'The service has not been started.')
+2019-11-27 16:03:16,289 Exception(1062, 'ControlService', 'The service has not been started.')

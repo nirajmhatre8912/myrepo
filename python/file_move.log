@@ -1,0 +1,140 @@
+2019-11-22 09:14:26,964 debug Message
+2019-11-22 09:14:26,966 file to be movedsaa20191119.txt
+2019-11-22 09:14:26,966 Source = C:\Program Files (x86)\VSCommon\webroot\logs\saa20191119.txt
+2019-11-22 09:14:26,966 Destination = D:\02_tmp\
+2019-11-22 09:14:26,967 Exception[Errno 2] No such file or directory: 'C:\\Program Files (x86)\\VSCommon\\webroot\\logs\\saa20191119.txt'
+2019-11-22 09:18:15,673 debug Message
+2019-11-22 09:18:15,675 file to be movedsaa20191119.txt
+2019-11-22 09:18:15,675 Source = C:\Program Files (x86)\VSCommon\webroot\logs\saa20191119.txt
+2019-11-22 09:18:15,675 Destination = D:\saa_logs_move\
+2019-11-22 09:18:15,676 Exception[Errno 2] No such file or directory: 'C:\\Program Files (x86)\\VSCommon\\webroot\\logs\\saa20191119.txt'
+2019-11-22 09:22:07,280 debug Message
+2019-11-22 09:22:07,282 file to be movedsaa20191119.log
+2019-11-22 09:22:07,282 Source = C:\Program Files (x86)\VSCommon\webroot\logs\saa20191119.log
+2019-11-22 09:22:07,283 Destination = D:\saa_logs_move\
+2019-11-22 09:22:07,285 Exception[Errno 13] Permission denied: 'D:\\saa_logs_move\\saa20191119.log'
+2019-11-22 09:23:57,080 debug Message
+2019-11-22 09:23:57,082 file to be movedsaa20191119.log
+2019-11-22 09:23:57,082 Source = C:\Program Files (x86)\VSCommon\webroot\logs\saa20191119.log
+2019-11-22 09:23:57,082 Destination = D:\saa_logs_move\
+2019-11-22 09:23:57,578 Exception[WinError 5] Access is denied: 'C:\\Program Files (x86)\\VSCommon\\webroot\\logs\\saa20191119.log'
+2019-11-22 09:24:57,323 debug Message
+2019-11-22 09:24:57,325 file to be movedsaa20191119.log
+2019-11-22 09:24:57,325 Source = C:\Program Files (x86)\VSCommon\webroot\logs\saa20191119.log
+2019-11-22 09:24:57,325 Destination = D:\saa_logs_move\
+2019-11-22 09:24:57,326 ExceptionDestination path 'D:\saa_logs_move\saa20191119.log' already exists
+2019-11-22 09:26:24,973 debug Message
+2019-11-22 09:26:24,974 file to be movedsaa20191119.log
+2019-11-22 09:26:24,974 Source = C:\Program Files (x86)\VSCommon\webroot\logs\saa20191119.log
+2019-11-22 09:26:24,975 Destination = D:\saa_logs_move\
+2019-11-22 09:26:25,541 Moved Successfully..
+2019-11-22 09:27:05,240 debug Message
+2019-11-22 09:27:05,242 file to be movedsaa20191120.log
+2019-11-22 09:27:05,242 Source = C:\Program Files (x86)\VSCommon\webroot\logs\saa20191120.log
+2019-11-22 09:27:05,242 Destination = D:\saa_logs_move\
+2019-11-22 09:27:05,770 Moved Successfully..
+2019-11-22 09:31:00,234 debug Message
+2019-11-22 09:31:00,236 file to be movedsaa20191120.log
+2019-11-22 09:31:00,236 Source = C:\Program Files (x86)\VSCommon\webroot\logs\saa20191120.log
+2019-11-22 09:31:00,236 Destination = D:\saa_logs_move\
+2019-11-22 09:31:00,237 ExceptionDestination path 'D:\saa_logs_move\saa20191120.log' already exists
+2019-11-22 09:33:00,243 debug Message
+2019-11-22 09:33:00,245 file to be movedsaa20191121.log
+2019-11-22 09:33:00,245 Source = C:\Program Files (x86)\VSCommon\webroot\logs\saa20191121.log
+2019-11-22 09:33:00,245 Destination = D:\saa_logs_move\
+2019-11-22 09:33:00,824 Moved Successfully..
+2019-11-23 00:30:00,429 debug Message
+2019-11-23 00:30:00,431 file to be movedsaa20191122.log
+2019-11-23 00:30:00,431 Source = C:\Program Files (x86)\VSCommon\webroot\logs\saa20191122.log
+2019-11-23 00:30:00,431 Destination = D:\saa_logs_move\
+2019-11-23 00:30:01,019 Moved Successfully..
+2019-11-24 00:30:00,403 debug Message
+2019-11-24 00:30:00,405 file to be movedsaa20191123.log
+2019-11-24 00:30:00,405 Source = C:\Program Files (x86)\VSCommon\webroot\logs\saa20191123.log
+2019-11-24 00:30:00,405 Destination = D:\saa_logs_move\
+2019-11-24 00:30:00,905 Moved Successfully..
+2019-11-25 00:30:00,392 debug Message
+2019-11-25 00:30:00,394 file to be movedsaa20191124.log
+2019-11-25 00:30:00,394 Source = C:\Program Files (x86)\VSCommon\webroot\logs\saa20191124.log
+2019-11-25 00:30:00,394 Destination = D:\saa_logs_move\
+2019-11-25 00:30:00,917 Moved Successfully..
+2019-11-26 00:30:00,403 debug Message
+2019-11-26 00:30:00,405 file to be movedsaa20191125.log
+2019-11-26 00:30:00,405 Source = C:\Program Files (x86)\VSCommon\webroot\logs\saa20191125.log
+2019-11-26 00:30:00,405 Destination = D:\saa_logs_move\
+2019-11-26 00:30:00,946 Moved Successfully..
+2019-11-27 00:30:00,508 debug Message
+2019-11-27 00:30:00,518 file to be movedsaa20191126.log
+2019-11-27 00:30:00,519 Source = C:\Program Files (x86)\VSCommon\webroot\logs\saa20191126.log
+2019-11-27 00:30:00,519 Destination = D:\saa_logs_move\
+2019-11-27 00:30:01,042 Moved Successfully..
+2019-11-28 00:30:00,405 debug Message
+2019-11-28 00:30:00,407 file to be movedsaa20191127.log
+2019-11-28 00:30:00,407 Source = C:\Program Files (x86)\VSCommon\webroot\logs\saa20191127.log
+2019-11-28 00:30:00,407 Destination = D:\saa_logs_move\
+2019-11-28 00:30:00,871 Moved Successfully..
+2019-11-29 00:30:00,407 debug Message
+2019-11-29 00:30:00,409 file to be movedsaa20191128.log
+2019-11-29 00:30:00,409 Source = C:\Program Files (x86)\VSCommon\webroot\logs\saa20191128.log
+2019-11-29 00:30:00,409 Destination = D:\saa_logs_move\
+2019-11-29 00:30:00,934 Moved Successfully..
+2019-11-30 00:30:00,409 debug Message
+2019-11-30 00:30:00,410 file to be movedsaa20191129.log
+2019-11-30 00:30:00,411 Source = C:\Program Files (x86)\VSCommon\webroot\logs\saa20191129.log
+2019-11-30 00:30:00,411 Destination = D:\saa_logs_move\
+2019-11-30 00:30:01,213 Moved Successfully..
+2019-12-01 00:30:03,219 debug Message
+2019-12-01 00:30:03,236 file to be movedsaa20191130.log
+2019-12-01 00:30:03,236 Source = C:\Program Files (x86)\VSCommon\webroot\logs\saa20191130.log
+2019-12-01 00:30:03,236 Destination = D:\saa_logs_move\
+2019-12-01 00:30:08,061 Moved Successfully..
+2019-12-02 00:30:01,689 debug Message
+2019-12-02 00:30:01,690 file to be movedsaa20191201.log
+2019-12-02 00:30:01,690 Source = C:\Program Files (x86)\VSCommon\webroot\logs\saa20191201.log
+2019-12-02 00:30:01,691 Destination = D:\saa_logs_move\
+2019-12-02 00:30:02,412 Moved Successfully..
+2019-12-03 00:30:02,340 debug Message
+2019-12-03 00:30:02,350 file to be movedsaa20191202.log
+2019-12-03 00:30:02,350 Source = C:\Program Files (x86)\VSCommon\webroot\logs\saa20191202.log
+2019-12-03 00:30:02,350 Destination = D:\saa_logs_move\
+2019-12-03 00:30:03,040 Moved Successfully..
+2019-12-04 00:30:01,689 debug Message
+2019-12-04 00:30:01,691 file to be movedsaa20191203.log
+2019-12-04 00:30:01,691 Source = C:\Program Files (x86)\VSCommon\webroot\logs\saa20191203.log
+2019-12-04 00:30:01,691 Destination = D:\saa_logs_move\
+2019-12-04 00:30:02,254 Moved Successfully..
+2019-12-05 00:30:02,303 debug Message
+2019-12-05 00:30:02,313 file to be movedsaa20191204.log
+2019-12-05 00:30:02,314 Source = C:\Program Files (x86)\VSCommon\webroot\logs\saa20191204.log
+2019-12-05 00:30:02,314 Destination = D:\saa_logs_move\
+2019-12-05 00:30:02,969 Moved Successfully..
+2019-12-06 00:30:01,698 debug Message
+2019-12-06 00:30:01,700 file to be movedsaa20191205.log
+2019-12-06 00:30:01,700 Source = C:\Program Files (x86)\VSCommon\webroot\logs\saa20191205.log
+2019-12-06 00:30:01,700 Destination = D:\saa_logs_move\
+2019-12-06 00:30:02,209 Moved Successfully..
+2019-12-07 00:30:01,914 debug Message
+2019-12-07 00:30:01,915 file to be movedsaa20191206.log
+2019-12-07 00:30:01,916 Source = C:\Program Files (x86)\VSCommon\webroot\logs\saa20191206.log
+2019-12-07 00:30:01,916 Destination = D:\saa_logs_move\
+2019-12-07 00:30:02,533 Moved Successfully..
+2019-12-08 00:30:01,777 debug Message
+2019-12-08 00:30:01,779 file to be movedsaa20191207.log
+2019-12-08 00:30:01,779 Source = C:\Program Files (x86)\VSCommon\webroot\logs\saa20191207.log
+2019-12-08 00:30:01,779 Destination = D:\saa_logs_move\
+2019-12-08 00:30:02,393 Moved Successfully..
+2019-12-09 00:30:01,731 debug Message
+2019-12-09 00:30:01,733 file to be movedsaa20191208.log
+2019-12-09 00:30:01,733 Source = C:\Program Files (x86)\VSCommon\webroot\logs\saa20191208.log
+2019-12-09 00:30:01,734 Destination = D:\saa_logs_move\
+2019-12-09 00:30:02,315 Moved Successfully..
+2019-12-10 00:30:01,707 debug Message
+2019-12-10 00:30:01,717 file to be movedsaa20191209.log
+2019-12-10 00:30:01,717 Source = C:\Program Files (x86)\VSCommon\webroot\logs\saa20191209.log
+2019-12-10 00:30:01,717 Destination = D:\saa_logs_move\
+2019-12-10 00:30:02,020 Moved Successfully..
+2019-12-11 00:30:01,703 debug Message
+2019-12-11 00:30:01,713 file to be movedsaa20191210.log
+2019-12-11 00:30:01,713 Source = C:\Program Files (x86)\VSCommon\webroot\logs\saa20191210.log
+2019-12-11 00:30:01,713 Destination = D:\saa_logs_move\
+2019-12-11 00:30:01,717 Moved Successfully..

@@ -1,0 +1,8 @@
+2019-11-30 11:12:25,533 debug Message
+2019-11-30 11:12:25,536 Exception(5, 'OpenSCManager', 'Access is denied.')
+2019-11-30 11:12:25,549 Exception(5, 'OpenSCManager', 'Access is denied.')
+2019-11-30 11:12:25,559 Exception(5, 'OpenSCManager', 'Access is denied.')
+2019-11-30 13:26:01,842 debug Message
+2019-11-30 13:26:01,852 Exception(5, 'OpenSCManager', 'Access is denied.')
+2019-11-30 13:26:01,852 Exception(5, 'OpenSCManager', 'Access is denied.')
+2019-11-30 13:26:01,852 Exception(5, 'OpenSCManager', 'Access is denied.')
